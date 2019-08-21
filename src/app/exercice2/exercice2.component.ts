@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Exercice2Component implements OnInit {
 
+  iclick(event: Event): void {
+    console.log(event);
+  }
   constructor() { }
 
   ngOnInit() {
