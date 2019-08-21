@@ -1,1 +1,7 @@
-<p>exercice1 works!</p>
+<!-- Exemple d'interpolation affichage de la date du jour -->
+<p>La date du jour est : {{ getDateNow() }}</p>
+<!-- Exemple de liaison d'attribut -->
+<img [src]='avatar'>
+<br>
+<!-- Exemple de liaison d'événement-->
+<button (click)='reverseImage($event)' class="btn btn-primary">inverser image</button>
